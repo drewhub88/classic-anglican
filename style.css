@@ -1,0 +1,106 @@
+/*
+Theme Name: Classic Anglican
+Theme URI: https://drewhub88.github.io/AE-is-here/
+Author: Andrew Edward.L (Æ)
+Author URI: https://drewhub88.github.io/AE-is-here/
+Description: A custom church wordpress theme inspired by Redeemer.com
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 6.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: classic-anglican
+Tags: church, anglican, blog, custom-menu, featured-images, translation-ready
+*/
+
+/* Slider transitions */
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .8s ease;
+  display: flex;
+  align-items: center;
+}
+.slide.active { opacity: 1; }
+.slide-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+.slide-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(80, 29, 29, 0.7) 40%, rgba(93, 36, 36, 0.1));
+}
+
+/* Dropdown hover */
+.group:hover .dropdown {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.dropdown {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: opacity .2s, transform .2s;
+}
+
+/* Ministry grid gap */
+.ministry-grid-wrap { background: #e0d9ce; gap: 2px; }
+
+/* Post card image zoom */
+.card-img { transition: transform .5s ease, opacity .3s ease; }
+.post-card:hover .card-img { transform: scale(1.05); opacity: .85; }
+
+/* Value row hover indent */
+.value-row { transition: padding-left .2s; }
+.value-row:hover { padding-left: 6px; }
+
+/* Custom logo alignment */
+.custom-logo {
+  display: block;
+  height: auto;
+  width: auto;
+  margin: 0;
+}
+
+/* Content headings */
+.prose h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1b2e4b;
+}
+
+.prose h2 {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1b2e4b;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1b2e4b;
+}
+
+.prose h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1b2e4b;
+}
