@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>Grace Anglican Parish</title>
+    <link>https://example.com</link>
+    <description>A demo site for the Classic Anglican WordPress theme</description>
+    <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://example.com</wp:base_site_url>
+    <wp:base_blog_url>https://example.com</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login><![CDATA[parishadmin]]></wp:author_login>
+        <wp:author_email><![CDATA[demo@example.com]]></wp:author_email>
+        <wp:author_display_name><![CDATA[Parish Admin]]></wp:author_display_name>
+    </wp:author>
+
+    <!-- ══════════ PAGES ══════════ -->
+
+    <!-- Home (page_on_front) -->
+    <item>
+        <title>Home</title>
+        <link>https://example.com/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Homepage content is rendered by front-page.php and pulled dynamically — this page body is not displayed.</p>]]></content:encoded>
+        <wp:post_id>2</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>home</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Blog (page_for_posts) -->
+    <item>
+        <title>Blog</title>
+        <link>https://example.com/blog/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[]]></content:encoded>
+        <wp:post_id>3</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>blog</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- About Us -->
+    <item>
+        <title>About Us</title>
+        <link>https://example.com/about-us/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[
+<p>Grace Anglican Parish has served its community for generations, offering a home for worship, fellowship, and formation in the Anglican tradition.</p>
+<h2>Our Mission</h2>
+<p>To proclaim the Gospel, celebrate the sacraments, and serve our neighbors with love.</p>
+        ]]></content:encoded>
+        <wp:post_id>4</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>about-us</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>1</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Give -->
+    <item>
+        <title>Give</title>
+        <link>https://example.com/give/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Your generosity sustains our worship, ministries, and outreach. Thank you for supporting the mission of this parish.</p>]]></content:encoded>
+        <wp:post_id>10</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>give</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Visit -->
+    <item>
+        <title>Plan Your Visit</title>
+        <link>https://example.com/visit/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>We'd love to welcome you. Services are held every Sunday at 9:45 AM. Arrive a few minutes early — greeters will help you find a seat and a hymnal.</p>]]></content:encoded>
+        <wp:post_id>11</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>visit</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Our History -->
+    <item>
+        <title>Our Story</title>
+        <link>https://example.com/our-history/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Founded in the spirit of the Oxford Movement, our parish has carried forward a tradition of sacramental worship and historic liturgy for generations.</p>]]></content:encoded>
+        <wp:post_id>12</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>our-history</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Our Beliefs -->
+    <item>
+        <title>Beliefs &amp; Vision</title>
+        <link>https://example.com/our-beliefs/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>We hold to the Apostolic and Catholic faith as received through Scripture, the Creeds, and the sacramental life of the Church.</p>]]></content:encoded>
+        <wp:post_id>13</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>our-beliefs</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Our Team -->
+    <item>
+        <title>Clergy &amp; Staff</title>
+        <link>https://example.com/our-team/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Meet the clergy and staff who serve this parish community in worship, teaching, and pastoral care.</p>]]></content:encoded>
+        <wp:post_id>14</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>our-team</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Youth -->
+    <item>
+        <title>Youth Ministry</title>
+        <link>https://example.com/youth/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Our youth ministry walks alongside young people as they grow in faith, friendship, and character.</p>]]></content:encoded>
+        <wp:post_id>15</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>youth</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Advocacy -->
+    <item>
+        <title>Advocacy</title>
+        <link>https://example.com/advocacy/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>We advocate for justice and mercy in our wider community, following Christ's call to serve the vulnerable.</p>]]></content:encoded>
+        <wp:post_id>16</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>advocacy</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Pastoral Care -->
+    <item>
+        <title>Pastoral Care</title>
+        <link>https://example.com/pastoral-care/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Our pastoral care team offers prayer, visitation, and support during times of illness, grief, and difficulty.</p>]]></content:encoded>
+        <wp:post_id>17</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>pastoral-care</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Absolution -->
+    <item>
+        <title>Sacrament of Reconciliation</title>
+        <link>https://example.com/absolution/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Confession is offered by appointment and before major feasts. Speak with a priest to arrange a time.</p>]]></content:encoded>
+        <wp:post_id>18</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>absolution</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Forum Theology -->
+    <item>
+        <title>Theological Forum</title>
+        <link>https://example.com/forum-theology/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Join our weekly theological forum for honest discussion on faith, doctrine, and the Christian life, guided by clergy and lay theologians.</p>]]></content:encoded>
+        <wp:post_id>19</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>forum-theology</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- Safe House / Gratia House -->
+    <item>
+        <title>Gratia House</title>
+        <link>https://example.com/safe-house/</link>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[<p>Gratia House offers a place of refuge, counsel, and practical support for those in crisis within our community.</p>]]></content:encoded>
+        <wp:post_id>20</wp:post_id>
+        <wp:post_date>2026-08-03 00:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>safe-house</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>page</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+    </item>
+
+    <!-- ══════════ BLOG POSTS ══════════ -->
+
+    <item>
+        <title>A Reflection on Advent</title>
+        <link>https://example.com/a-reflection-on-advent/</link>
+        <pubDate>Sun, 30 Nov 2025 09:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[
+<p>As we enter the season of Advent, we are invited into a posture of watchful waiting. This is a time of preparation, of quiet expectancy, as we look toward the coming of Christ.</p>
+<p>Our parish will hold a series of Advent evening prayers each Wednesday throughout the season.</p>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[A short reflection on the meaning of Advent and our parish's observance of the season.]]></excerpt:encoded>
+        <wp:post_id>30</wp:post_id>
+        <wp:post_date>2025-11-30 09:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>a-reflection-on-advent</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="reflections"><![CDATA[Reflections]]></category>
+        <category domain="post_tag" nicename="advent"><![CDATA[Advent]]></category>
+    </item>
+
+    <item>
+        <title>Understanding the Book of Common Prayer</title>
+        <link>https://example.com/understanding-the-book-of-common-prayer/</link>
+        <pubDate>Sun, 12 Oct 2025 09:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[
+<p>The Book of Common Prayer has shaped Anglican worship for centuries. In this post, we explore its structure and how it guides our weekly liturgy.</p>
+<p>Newcomers are welcome to pick up a printed copy at the parish office, or follow along using the pew cards provided each Sunday.</p>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[An introduction to the Book of Common Prayer for newcomers to our parish.]]></excerpt:encoded>
+        <wp:post_id>31</wp:post_id>
+        <wp:post_date>2025-10-12 09:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>understanding-the-book-of-common-prayer</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="teaching"><![CDATA[Teaching]]></category>
+        <category domain="post_tag" nicename="liturgy"><![CDATA[Liturgy]]></category>
+    </item>
+
+    <item>
+        <title>Parish Fellowship Night Recap</title>
+        <link>https://example.com/parish-fellowship-night-recap/</link>
+        <pubDate>Sun, 20 Sep 2025 09:00:00 +0000</pubDate>
+        <dc:creator><![CDATA[parishadmin]]></dc:creator>
+        <content:encoded><![CDATA[
+<p>Thank you to everyone who joined us for last week's fellowship night. It was a wonderful evening of shared meals, music, and conversation.</p>
+<p>Watch this space for details on our next community gathering.</p>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[A recap of our most recent parish fellowship gathering.]]></excerpt:encoded>
+        <wp:post_id>32</wp:post_id>
+        <wp:post_date>2025-09-20 09:00:00</wp:post_date>
+        <wp:comment_status>closed</wp:comment_status>
+        <wp:ping_status>closed</wp:ping_status>
+        <wp:post_name>parish-fellowship-night-recap</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password><![CDATA[]]></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="community"><![CDATA[Community]]></category>
+        <category domain="post_tag" nicename="fellowship"><![CDATA[Fellowship]]></category>
+    </item>
+
+</channel>
+</rss>
