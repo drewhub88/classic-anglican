@@ -1,0 +1,72 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/drewhub88/classic-anglican/main/classic-anglican.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/drewhub88/classic-anglican/main/demo-content.xml"
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "The Classic Anglican",
+        "blogdescription": "A demo site for the Classic Anglican WordPress theme",
+        "show_on_front": "page",
+        "page_on_front": 2,
+        "page_for_posts": 3
+      }
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp rewrite structure '/%postname%/' --hard"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu create 'Primary Menu'"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu item add-custom 'Primary Menu' 'Home' '/' --position=1"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu item add-custom 'Primary Menu' 'About Us' '/#about-us' --position=2"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu item add-custom 'Primary Menu' 'Services' '/#services' --position=3"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu item add-custom 'Primary Menu' 'Ministries' '/#ministries' --position=4"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu item add-custom 'Primary Menu' 'Essays' '/blog/' --position=5"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp menu location assign 'Primary Menu' primary"
+    }
+  ]
+}
