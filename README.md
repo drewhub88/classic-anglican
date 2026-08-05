@@ -4,12 +4,6 @@ A WordPress theme designed to give a church site a classic, elegant look that wo
 
 ---
 
-## 📖 Project Overview
-
-This theme was built to create a web presence that feels uniquely sacred rather than like a standard corporate or generic modern landing web page. It prioritises classic, elegant aesthetics and easy navigation for everyone.
-
----
-
 ## 🚀 Live Demo
 
 [![Try it live](https://img.shields.io/badge/Try_it_live-WordPress_Playground-3858E9?logo=wordpress&logoColor=white&style=for-the-badge)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/drewhub88/classic-anglican/main/playground-blueprint.json)
@@ -18,6 +12,12 @@ See **Classic Anglican** in action — click the badge above to launch a live,
 fully interactive WordPress site pre-loaded with the theme and sample content.
 No installs, no signup, no hosting required. It runs entirely in your browser,
 powered by [WordPress Playground](https://wordpress.org/playground/).
+
+---
+
+## 📖 Project Overview
+
+This theme was built to create a web presence that feels uniquely sacred rather than like a standard corporate or generic modern landing web page. It prioritises classic, elegant aesthetics and easy navigation for everyone.
 
 ---
 
